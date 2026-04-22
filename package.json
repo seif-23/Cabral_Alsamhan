@@ -1,0 +1,18 @@
+{
+  "name": "cabral-alsamhan-pllc-site",
+  "version": "1.0.0",
+  "description": "Website for Cabral Alsamhan PLLC, a boutique U.S. immigration law firm.",
+  "main": "index.js",
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
+  "keywords": [],
+  "author": "Cabral Alsamhan PLLC",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^7.2.1"
+  }
+}

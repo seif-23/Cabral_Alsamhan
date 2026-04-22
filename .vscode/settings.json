@@ -1,0 +1,26 @@
+{
+  "easyDeployment.config": {
+    "configurations": [
+      {
+        "name": "dev",
+        "local": {
+          "projectPath": ".",
+          "buildCmd": "npm run build",
+          "outputDir": "dist"
+        },
+        "remote": {
+          "deploymentPath": "/var/www/html/smart-e-judge",    // absolute path on server
+          "backupOriginalFiles": true,
+          "backupTo": "/var/backups/smart-e-judge",          // absolute path on server
+          "deleteOriginalFiles": true
+        },
+        "ssh": {
+          "host": "YOUR_SERVER_IP",
+          "port": 22,
+          "username": "seif",
+          "privateKey": "1234"                      // or use "password": "..."
+        }
+      }
+    ]
+  }
+}

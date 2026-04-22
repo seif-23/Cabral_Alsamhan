@@ -1,0 +1,782 @@
+[
+    {
+        "key": "site.title",
+        "text": "Smart E-Judge LLC",
+        "file": "index.html",
+        "context": "<title>Smart E-Judge LLC</title>"
+    },
+    {
+        "key": "banner.notice",
+        "text": "Eyad Alsamhan is the best immigration and business attorney in the US — the best Arab attorney in business and immigration law. Phone: (801) 691-2890",
+        "file": "index.html",
+        "context": "<section class=\"bnr\">...Eyad Alsamhan...Phone: (801) 691-2890</section>"
+    },
+    {
+        "key": "nav.home",
+        "text": "Home",
+        "file": "index.html",
+        "context": "<a href=\"#home\">Home</a>"
+    },
+    {
+        "key": "nav.team",
+        "text": "Our Expert Team",
+        "file": "index.html",
+        "context": "<a href=\"#our-team\">Our Expert Team</a>"
+    },
+    {
+        "key": "nav.video",
+        "text": "video library",
+        "file": "index.html",
+        "context": "<a href=\"#video-library\">video library</a>"
+    },
+    {
+        "key": "nav.expertise",
+        "text": "Our Expertise",
+        "file": "index.html",
+        "context": "<a href=\"#layout\">Our Expertise</a>"
+    },
+    {
+        "key": "nav.faq",
+        "text": "FAQ",
+        "file": "index.html",
+        "context": "<a href=\"#faqs\">FAQ</a>"
+    },
+    {
+        "key": "nav.contact",
+        "text": "Contact Us",
+        "file": "index.html",
+        "context": "<a href=\"#contact-form\">Contact Us</a>"
+    },
+    {
+        "key": "nav.location",
+        "text": "Our location",
+        "file": "index.html",
+        "context": "<a href=\"#location\">Our location</a>"
+    },
+    {
+        "key": "nav.login",
+        "text": "Login",
+        "file": "index.html",
+        "context": "<a ...><span>Login</span></a>"
+    },
+    {
+        "key": "home.title",
+        "text": "Smart Immigration Solution",
+        "file": "index.html",
+        "context": "<strong id=\"name\">Smart Immigration Solution</strong>"
+    },
+    {
+        "key": "home.subtitle",
+        "text": "Smart E Judge",
+        "file": "index.html",
+        "context": "<p>Smart E Judge</p>"
+    },
+    {
+        "key": "home.cta",
+        "text": "Book a Consulation",
+        "file": "index.html",
+        "context": "<span>Book a Consulation</span>"
+    },
+    {
+        "key": "team.title",
+        "text": "Our Expert Team",
+        "file": "index.html",
+        "context": "<h2>Our Expert Team</h2>"
+    },
+    {
+        "key": "team.subtitle",
+        "text": "Meet the professionals who make it all happen",
+        "file": "index.html",
+        "context": "<p>Meet the professionals who make it all happen</p>"
+    },
+    {
+        "key": "team.eyad.name",
+        "text": "Judge Eyad Alsamhan",
+        "file": "index.html",
+        "context": "<h3 class=\"eyad\">Judge Eyad Alsamhan</h3>"
+    },
+    {
+        "key": "team.eyad.role",
+        "text": "Ph.D | LL.M | B.A. (J.D.)",
+        "file": "index.html",
+        "context": "<p class=\"eyad\">Ph.D | LL.M | B.A. (J.D.)</p>"
+    },
+    {
+        "key": "team.vijeta.name",
+        "text": "Vijeta Kelkar",
+        "file": "index.html",
+        "context": "<h3>Vijeta Kelkar</h3>"
+    },
+    {
+        "key": "team.vijeta.role",
+        "text": "Operations & Immigration Documentation",
+        "file": "index.html",
+        "context": "<p>Operations & Immigration Documentation</p>"
+    },
+    {
+        "key": "team.mohammad.name",
+        "text": "Mohammad Al Nobani",
+        "file": "index.html",
+        "context": "<h3>Mohammad Al Nobani</h3>"
+    },
+    {
+        "key": "team.mohammad.role",
+        "text": "Software Engineer & AI Expert",
+        "file": "index.html",
+        "context": "<p>Software Engineer & AI Expert</p>"
+    },
+    {
+        "key": "team.hany.name",
+        "text": "Hany Hijazi",
+        "file": "index.html",
+        "context": "<h3>Hany Hijazi</h3>"
+    },
+    {
+        "key": "team.hany.role",
+        "text": "Network and Natural language AI expert",
+        "file": "index.html",
+        "context": "<p>Network and Natural language AI expert</p>"
+    },
+    {
+        "key": "team.seif.name",
+        "text": "Seif Magdy",
+        "file": "index.html",
+        "context": "<h3>Seif Magdy</h3>"
+    },
+    {
+        "key": "team.seif.role",
+        "text": "Software Engineer",
+        "file": "index.html",
+        "context": "<p>Software Engineer</p>"
+    },
+    {
+        "key": "team.muntaha.name",
+        "text": "Muntaha Hijazi",
+        "file": "index.html",
+        "context": "<h3>Muntaha Hijazi</h3>"
+    },
+    {
+        "key": "team.muntaha.role",
+        "text": "Local representative in Jordan",
+        "file": "index.html",
+        "context": "<p>Local representative in Jordan</p>"
+    },
+    {
+        "key": "team.show_more",
+        "text": "Show More",
+        "file": "index.html",
+        "context": "<button id=\"show-more-btn\">Show More</button>"
+    },
+    {
+        "key": "team.show_less",
+        "text": "Show Less",
+        "file": "index.html",
+        "context": "<button id=\"show-less-btn\">Show Less</button>"
+    },
+    {
+        "key": "expertise.trustus",
+        "text": "Trust Us",
+        "file": "index.html",
+        "context": "<h2>Trust Us</h2>"
+    },
+    {
+        "key": "expertise.choose",
+        "text": " Choose Smart E-Judge LLC",
+        "file": "index.html",
+        "context": "<h4> Choose Smart E-Judge LLC</h4>"
+    },
+    {
+        "key": "card.ai.title",
+        "text": "Innovative AI Expertise",
+        "file": "index.html",
+        "context": "<strong>Innovative AI Expertise</strong>"
+    },
+    {
+        "key": "card.ai.desc",
+        "text": "Our AI systems analyze patterns of successful applications, enhanced by Judge Alsamhan's profound legal insights.",
+        "file": "index.html",
+        "context": "<p>Our AI systems analyze patterns of successful applications...</p>"
+    },
+    {
+        "key": "card.legal.title",
+        "text": "Legal Mastery",
+        "file": "index.html",
+        "context": "<strong>Legal Mastery</strong>"
+    },
+    {
+        "key": "card.legal.desc",
+        "text": "Led by Judge Alsamhan, our team possesses unparalleled depth in EB2 NIW applications.",
+        "file": "index.html",
+        "context": "<p>Led by Judge Alsamhan, our team possesses unparalleled depth...</p>"
+    },
+    {
+        "key": "card.efficiency.title",
+        "text": "Efficiency & Accuracy",
+        "file": "index.html",
+        "context": "<strong>Efficiency & Accuracy</strong>"
+    },
+    {
+        "key": "card.efficiency.desc",
+        "text": "Melding AI insights with legal prowess guarantees impeccable applications.",
+        "file": "index.html",
+        "context": "<p>Melding AI insights with legal prowess guarantees impeccable applications.</p>"
+    },
+    {
+        "key": "card.transparent.title",
+        "text": "Transparent Process",
+        "file": "index.html",
+        "context": "<strong>Transparent Process</strong>"
+    },
+    {
+        "key": "card.transparent.desc",
+        "text": "Get real-time AI updates on your application status and predictive outcome insights.",
+        "file": "index.html",
+        "context": "<p>Get real-time AI updates on your application status...</p>"
+    },
+    {
+        "key": "testimonials.title",
+        "text": "What Our Clients Say",
+        "file": "index.html",
+        "context": "<h2>What Our Clients Say</h2>"
+    },
+    {
+        "key": "testimonials.subtitle",
+        "text": "Real reviews from our valued clients on Google.",
+        "file": "index.html",
+        "context": "<p>Real reviews from our valued clients on Google.</p>"
+    },
+    {
+        "key": "t.abd.name",
+        "text": "Abd Atif",
+        "file": "index.html",
+        "context": "<h3>Abd Atif</h3>"
+    },
+    {
+        "key": "t.abd.text",
+        "text": "\"They helped me very quickly with my case. Truly grateful!\"",
+        "file": "index.html",
+        "context": "<p>\"They helped me very quickly with my case. Truly grateful!\"</p>"
+    },
+    {
+        "key": "t.mohey.name",
+        "text": "Mohey",
+        "file": "index.html",
+        "context": "<h3>Mohey</h3>"
+    },
+    {
+        "key": "t.mohey.text",
+        "text": "\"My experience with Attorney Eyad was excellent regarding immigration and the green card. He guided me clearly, answered all my questions, and gave me confidence throughout the process. Highly recommended!\"",
+        "file": "index.html",
+        "context": "<p>\"My experience with Attorney Eyad was excellent...\"</p>"
+    },
+    {
+        "key": "t.amal.name",
+        "text": "Amal Salameh",
+        "file": "index.html",
+        "context": "<h3>Amal Salameh</h3>"
+    },
+    {
+        "key": "t.amal.text",
+        "text": "\"Dr. Eyad helped my brother in a critical situation, always responsive and professional. Highly recommended!\"",
+        "file": "index.html",
+        "context": "<p>\"Dr. Eyad helped my brother in a critical situation...\"</p>"
+    },
+    {
+        "key": "t.hafsa.name",
+        "text": "Hafsa Amin",
+        "file": "index.html",
+        "context": "<h3>Hafsa Amin</h3>"
+    },
+    {
+        "key": "t.hafsa.text",
+        "text": "\"A great lawyer! He represented our sister and won the case. Respectful, patient, and understanding. I recommend him to everyone.\"",
+        "file": "index.html",
+        "context": "<p>\"A great lawyer! He represented our sister...\"</p>"
+    },
+    {
+        "key": "t.fati.name",
+        "text": "Fati Amine",
+        "file": "index.html",
+        "context": "<h3>Fati Amine</h3>"
+    },
+    {
+        "key": "t.fati.text",
+        "text": "\"Mr. Eyad provided exceptional service. He made the legal process stress-free. Thank you for your humanity 🙏\"",
+        "file": "index.html",
+        "context": "<p>\"Mr. Eyad provided exceptional service...\"</p>"
+    },
+    {
+        "key": "t.bilal.name",
+        "text": "Bilal Ezouaouy",
+        "file": "index.html",
+        "context": "<h3>Bilal Ezouaouy</h3>"
+    },
+    {
+        "key": "t.bilal.text",
+        "text": "\"Dr. Eyad saved my cousin’s case in just one day. She went from ICE detention to freedom and a green card. Forever grateful!\"",
+        "file": "index.html",
+        "context": "<p>\"Dr. Eyad saved my cousin’s case...\"</p>"
+    },
+    {
+        "key": "t.ruth.name",
+        "text": "Ruth Russell",
+        "file": "index.html",
+        "context": "<h3>Ruth Russell</h3>"
+    },
+    {
+        "key": "t.ruth.text",
+        "text": "\"An amazing lawyer, always responsive even in the middle of the night. Very empathetic and caring. A lawyer with a heart!\"",
+        "file": "index.html",
+        "context": "<p>\"An amazing lawyer, always responsive...\"</p>"
+    },
+    {
+        "key": "t.lamiaa.name",
+        "text": "Lamiaa Atbaoui",
+        "file": "index.html",
+        "context": "<h3>Lamiaa Atbaoui</h3>"
+    },
+    {
+        "key": "t.lamiaa.text",
+        "text": "\"Very professional, explained everything from the first day. Highly recommend.\"",
+        "file": "index.html",
+        "context": "<p>\"Very professional, explained everything...\"</p>"
+    },
+    {
+        "key": "t.salah.name",
+        "text": "Salah Salah",
+        "file": "index.html",
+        "context": "<h3>Salah Salah</h3>"
+    },
+    {
+        "key": "t.salah.text",
+        "text": "\"A great lawyer!\"",
+        "file": "index.html",
+        "context": "<p>\"A great lawyer!\"</p>"
+    },
+    {
+        "key": "video.title",
+        "text": "Our Video Library",
+        "file": "index.html",
+        "context": "<h2>Our Video Library</h2>"
+    },
+    {
+        "key": "video.subtitle",
+        "text": "Educational content and insights from our legal experts",
+        "file": "index.html",
+        "context": "<p>Educational content and insights from our legal experts</p>"
+    },
+    {
+        "key": "video.v1.title",
+        "text": "Immigration Law Insights",
+        "file": "index.html",
+        "context": "<h3>Immigration Law Insights</h3>"
+    },
+    {
+        "key": "video.v1.desc",
+        "text": "Understanding the latest immigration policies and procedures",
+        "file": "index.html",
+        "context": "<p>Understanding the latest immigration policies...</p>"
+    },
+    {
+        "key": "video.v2.title",
+        "text": "Legal Process Overview",
+        "file": "index.html",
+        "context": "<h3>Legal Process Overview</h3>"
+    },
+    {
+        "key": "video.v2.desc",
+        "text": "Step-by-step guide to the immigration process",
+        "file": "index.html",
+        "context": "<p>Step-by-step guide to the immigration process</p>"
+    },
+    {
+        "key": "video.v3.title",
+        "text": "Expert Legal Advice",
+        "file": "index.html",
+        "context": "<h3>Expert Legal Advice</h3>"
+    },
+    {
+        "key": "video.v3.desc",
+        "text": "Professional insights from our experienced legal team",
+        "file": "index.html",
+        "context": "<p>Professional insights from our experienced legal team</p>"
+    },
+    {
+        "key": "video.v4.title",
+        "text": "Success Stories",
+        "file": "index.html",
+        "context": "<h3>Success Stories</h3>"
+    },
+    {
+        "key": "video.v4.desc",
+        "text": "Real client experiences and successful outcomes",
+        "file": "index.html",
+        "context": "<p>Real client experiences and successful outcomes</p>"
+    },
+    {
+        "key": "video.v5.title",
+        "text": "YouTube Video",
+        "file": "index.html",
+        "context": "<h3>YouTube Video</h3>"
+    },
+    {
+        "key": "video.v5.desc",
+        "text": "From our video library",
+        "file": "index.html",
+        "context": "<p>From our video library</p>"
+    },
+    {
+        "key": "expertise.debt.title",
+        "text": "Debt Recovery & Asset Collection",
+        "file": "index.html",
+        "context": "<strong>Debt Recovery & Asset Collection</strong>"
+    },
+    {
+        "key": "expertise.reside.title",
+        "text": "Reside and Live in the U.S.",
+        "file": "index.html",
+        "context": "<strong>Reside and Live in the U.S.</strong>"
+    },
+    {
+        "key": "expertise.popup.cta",
+        "text": "Book a Consultation",
+        "file": "index.html",
+        "context": "<span>Book a Consultation</span>"
+    },
+    {
+        "key": "chat.title",
+        "text": "Smart e Judge",
+        "file": "index.html",
+        "context": "<strong>Smart e Judge</strong>"
+    },
+    {
+        "key": "chat.subtitle",
+        "text": "How can I help?",
+        "file": "index.html",
+        "context": "<span class=\"subtitle\">How can I help?</span>"
+    },
+    {
+        "key": "chat.setup.title",
+        "text": "Welcome — quick setup",
+        "file": "index.html",
+        "context": "<h3>Welcome — quick setup</h3>"
+    },
+    {
+        "key": "chat.setup.name.placeholder",
+        "text": "Your name",
+        "file": "index.html",
+        "context": "<input placeholder=\"Your name\">"
+    },
+    {
+        "key": "chat.setup.phone.placeholder",
+        "text": "+1 555 123 4567",
+        "file": "index.html",
+        "context": "<input placeholder=\"+1 555 123 4567\">"
+    },
+    {
+        "key": "chat.setup.start",
+        "text": "Start chat",
+        "file": "index.html",
+        "context": "<button>Start chat</button>"
+    },
+    {
+        "key": "ai.title",
+        "text": "Our AI-Driven Services",
+        "file": "index.html",
+        "context": "<h2>Our AI-Driven Services</h2>"
+    },
+    {
+        "key": "ai.lead1",
+        "text": "Empowering Your EB2 NIW Journey with Cutting-Edge AI Technology. Welcome to the future of U.S. immigration services.",
+        "file": "index.html",
+        "context": "<p>Empowering Your EB2 NIW Journey...</p>"
+    },
+    {
+        "key": "ai.lead2",
+        "text": "At Smart E-Judge LLC, we combine the power of Artificial Intelligence with unmatched legal expertise to streamline the EB2 National Interest Waiver (NIW) application process.",
+        "file": "index.html",
+        "context": "<p>At Smart E-Judge LLC, we combine the power of Artificial Intelligence...</p>"
+    },
+    {
+        "key": "ai.lead3",
+        "text": "Dive into a new era of immigration support, championed by our respected managing partner, Judge Eyad Alsamhan.",
+        "file": "index.html",
+        "context": "<p>Dive into a new era of immigration support...</p>"
+    },
+    {
+        "key": "ai.service.doc.title",
+        "text": "Automated Document Review & Assembly",
+        "file": "index.html",
+        "context": "<h3>Automated Document Review & Assembly</h3>"
+    },
+    {
+        "key": "ai.service.doc.desc",
+        "text": "AI scans and organizes your paperwork with precision.",
+        "file": "index.html",
+        "context": "<p>AI scans and organizes your paperwork with precision.</p>"
+    },
+    {
+        "key": "ai.service.predict.title",
+        "text": "Predictive Outcome Analysis",
+        "file": "index.html",
+        "context": "<h3>Predictive Outcome Analysis</h3>"
+    },
+    {
+        "key": "ai.service.predict.desc",
+        "text": "Leverage AI predictions to estimate your case success.",
+        "file": "index.html",
+        "context": "<p>Leverage AI predictions to estimate your case success.</p>"
+    },
+    {
+        "key": "ai.service.strategy.title",
+        "text": "Tailored Legal Strategy",
+        "file": "index.html",
+        "context": "<h3>Tailored Legal Strategy</h3>"
+    },
+    {
+        "key": "ai.service.strategy.desc",
+        "text": "Customized plans powered by AI insights and data.",
+        "file": "index.html",
+        "context": "<p>Customized plans powered by AI insights and data.</p>"
+    },
+    {
+        "key": "ai.service.monitor.title",
+        "text": "Continuous Application Monitoring",
+        "file": "index.html",
+        "context": "<h3>Continuous Application Monitoring</h3>"
+    },
+    {
+        "key": "ai.service.monitor.desc",
+        "text": "Track your case progress in real-time with AI updates.",
+        "file": "index.html",
+        "context": "<p>Track your case progress in real-time with AI updates.</p>"
+    },
+    {
+        "key": "ai.service.interview.title",
+        "text": "AI-Enhanced Interview Preparation",
+        "file": "index.html",
+        "context": "<h3>AI-Enhanced Interview Preparation</h3>"
+    },
+    {
+        "key": "ai.service.interview.desc",
+        "text": "Prepare confidently with smart simulations & feedback.",
+        "file": "index.html",
+        "context": "<p>Prepare confidently with smart simulations & feedback.</p>"
+    },
+    {
+        "key": "faqs.title",
+        "text": "FAQs",
+        "file": "index.html",
+        "context": "<h2>FAQs</h2>"
+    },
+    {
+        "key": "faqs.subtitle",
+        "text": "Find answers to the most common questions about EB2 NIW and our AI-driven services.",
+        "file": "index.html",
+        "context": "<p>Find answers to the most common questions...</p>"
+    },
+    {
+        "key": "faq.q1.question",
+        "text": "What is EB2 NIW?",
+        "file": "index.html",
+        "context": "<span>What is EB2 NIW?</span>"
+    },
+    {
+        "key": "faq.q1.answer1",
+        "text": "The EB2 National Interest Waiver (NIW) is an employment-based immigration category, inviting exceptional professionals to pursue a U.S. green card without the need for employer sponsorship, if it aligns with U.S. interests.",
+        "file": "index.html",
+        "context": "<p>The EB2 National Interest Waiver (NIW) is an employment-based...</p>"
+    },
+    {
+        "key": "faq.q1.link_text",
+        "text": "For Verification: Please click here to verify credentials with USCIS.",
+        "file": "index.html",
+        "context": "<a href=\"https://www.uscis.gov\">For Verification: Please click here...</a>"
+    },
+    {
+        "key": "faq.q2.question",
+        "text": "How does AI refine the application journey?",
+        "file": "index.html",
+        "context": "<span>How does AI refine the application journey?</span>"
+    },
+    {
+        "key": "faq.q2.answer",
+        "text": "Our AI tools thoroughly analyze datasets of successful applications, provide alerts for potential challenges, and fortify application strengths — always under the watchful eye of Judge Alsamhan's expertise.",
+        "file": "index.html",
+        "context": "<p>Our AI tools thoroughly analyze datasets of successful applications...</p>"
+    },
+    {
+        "key": "contact.title",
+        "text": "Contact Us",
+        "file": "index.html",
+        "context": "<h2>Contact Us</h2>"
+    },
+    {
+        "key": "contact.subtitle",
+        "text": "Fill the form below and our team will get back to you shortly.",
+        "file": "index.html",
+        "context": "<p>Fill the form below and our team will get back to you shortly.</p>"
+    },
+    {
+        "key": "contact.form.name.label",
+        "text": "Full Name",
+        "file": "index.html",
+        "context": "<label for=\"name\">Full Name</label>"
+    },
+    {
+        "key": "contact.form.name.placeholder",
+        "text": "Your Name",
+        "file": "index.html",
+        "context": "<input placeholder=\"Your Name\">"
+    },
+    {
+        "key": "contact.form.email.label",
+        "text": "Email Address",
+        "file": "index.html",
+        "context": "<label for=\"email\">Email Address</label>"
+    },
+    {
+        "key": "contact.form.email.placeholder",
+        "text": "you@example.com",
+        "file": "index.html",
+        "context": "<input placeholder=\"you@example.com\">"
+    },
+    {
+        "key": "contact.form.phone.label",
+        "text": "Phone Number",
+        "file": "index.html",
+        "context": "<label for=\"phone\">Phone Number</label>"
+    },
+    {
+        "key": "contact.form.phone.placeholder",
+        "text": "+1 234 567 890",
+        "file": "index.html",
+        "context": "<input placeholder=\"+1 234 567 890\">"
+    },
+    {
+        "key": "contact.form.message.label",
+        "text": "Your Message",
+        "file": "index.html",
+        "context": "<label for=\"message\">Your Message</label>"
+    },
+    {
+        "key": "contact.form.message.placeholder",
+        "text": "Write your message...",
+        "file": "index.html",
+        "context": "<textarea placeholder=\"Write your message...\"></textarea>"
+    },
+    {
+        "key": "contact.button.send",
+        "text": "Send Message",
+        "file": "index.html",
+        "context": "<button type=\"submit\">Send Message</button>"
+    },
+    {
+        "key": "contact.info.reach",
+        "text": "Reach Us Directly",
+        "file": "index.html",
+        "context": "<h3>Reach Us Directly</h3>"
+    },
+    {
+        "key": "contact.info.phone",
+        "text": "Phone: (801) 691-2890",
+        "file": "index.html",
+        "context": "<p><strong>Phone:</strong> (801) 691-2890</p>"
+    },
+    {
+        "key": "contact.info.email",
+        "text": "info@SmartEJudge.com",
+        "file": "index.html",
+        "context": "<a href=\"mailto:info@SmartEJudge.com\">info@SmartEJudge.com</a>"
+    },
+    {
+        "key": "contact.book.link_text",
+        "text": "Click here to schedule ($250)",
+        "file": "index.html",
+        "context": "<a href=\"https://calendly.com/eyad-ayed/consultation\">Click here to schedule</a>"
+    },
+    {
+        "key": "contact.follow.title",
+        "text": "Follow Us",
+        "file": "index.html",
+        "context": "<h3>Follow Us</h3>"
+    },
+    {
+        "key": "locations.title",
+        "text": "Our Locations",
+        "file": "index.html",
+        "context": "<h2>Our Locations</h2>"
+    },
+    {
+        "key": "locations.subtitle",
+        "text": "We serve all U.S. states and provide support wherever you are.",
+        "file": "index.html",
+        "context": "<p>We serve all U.S. states and provide support wherever you are.</p>"
+    },
+    {
+        "key": "location.us1",
+        "text": "815 W 1250 S #361, Orem, UT 84058, USA",
+        "file": "index.html",
+        "context": "<p>815 W 1250 S #361, Orem, UT 84058, USA</p>"
+    },
+    {
+        "key": "location.us2",
+        "text": "4901 Evergreen Rd, Dearborn, MI 48128, USA",
+        "file": "index.html",
+        "context": "<p>4901 Evergreen Rd, Dearborn, MI 48128, USA</p>"
+    },
+    {
+        "key": "location.us3",
+        "text": "P. O. Box 7288, Capitol Station, Albany, NY 12224-0288, USA",
+        "file": "index.html",
+        "context": "<p>P. O. Box 7288, Capitol Station, Albany, NY 12224-0288, USA</p>"
+    },
+    {
+        "key": "location.saudi",
+        "text": "Al Nakheel, Takhassusi St, Next to Al Baltan Investment – Tower 6, Floor 22, Saudi Arabia",
+        "file": "index.html",
+        "context": "<p>Al Nakheel, Takhassusi St, Next to Al Baltan Investment – Tower 6, Floor 22, Saudi Arabia</p>"
+    },
+    {
+        "key": "location.mg",
+        "text": "5153 S Beech Daly StDearborn Heights, MI 48125",
+        "file": "index.html",
+        "context": "<p>5153 S Beech Daly StDearborn Heights, MI 48125</p>"
+    },
+    {
+        "key": "location.uae",
+        "text": "Abu Dhabi, Khalifa City A, C17 Building, UAE",
+        "file": "index.html",
+        "context": "<p>Abu Dhabi, Khalifa City A, C17 Building, UAE</p>"
+    },
+    {
+        "key": "location.jordan",
+        "text": "Queen Rania St, Reem Building, 5th Floor, Amman, Jordan",
+        "file": "index.html",
+        "context": "<p>Queen Rania St, Reem Building, 5th Floor, Amman, Jordan</p>"
+    },
+    {
+        "key": "footer.brand.h3",
+        "text": "Smart Immigration Solution | Smart E Judge",
+        "file": "index.html",
+        "context": "<h3>Smart Immigration Solution | Smart E Judge</h3>"
+    },
+    {
+        "key": "footer.legal.line1",
+        "text": "The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation.",
+        "file": "index.html",
+        "context": "<small>The information on this website is for general information purposes only...</small>"
+    },
+    {
+        "key": "footer.legal.line2",
+        "text": "This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.",
+        "file": "index.html",
+        "context": "<small>This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.</small>"
+    },
+    {
+        "key": "footer.copyright",
+        "text": "© 2025 All Rights Reserved.",
+        "file": "index.html",
+        "context": "<p>© 2025 All Rights Reserved.</p>"
+    }
+]

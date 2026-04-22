@@ -1,0 +1,32 @@
+[
+  {
+    "key": "site.title",
+    "text": "Cabral Alsamhan PLLC | Boutique U.S. Immigration Law Firm",
+    "file": "index.html",
+    "context": "<title>Cabral Alsamhan PLLC | Boutique U.S. Immigration Law Firm</title>"
+  },
+  {
+    "key": "home.firm",
+    "text": "Cabral Alsamhan PLLC",
+    "file": "index.html",
+    "context": "<p class=\"hero-firm\">Cabral Alsamhan PLLC</p>"
+  },
+  {
+    "key": "home.kicker",
+    "text": "Attorneys at Law",
+    "file": "index.html",
+    "context": "<p class=\"hero-kicker\">Attorneys at Law</p>"
+  },
+  {
+    "key": "home.title",
+    "text": "Strategic Legal Representation for U.S. Immigration Matters",
+    "file": "index.html",
+    "context": "<h1 class=\"hero-headline\">Strategic Legal Representation for U.S. Immigration Matters</h1>"
+  },
+  {
+    "key": "footer.brand",
+    "text": "Cabral Alsamhan PLLC",
+    "file": "index.html",
+    "context": "<h3>Cabral Alsamhan PLLC</h3>"
+  }
+]
