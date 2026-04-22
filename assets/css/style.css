@@ -4582,7 +4582,7 @@ section.navbar.scrolled {
   padding: calc(var(--navbar-height) + 20px) 0 4.5rem;
   display: flex;
   align-items: center;
-  background: url("/imgs/hero-1.png") center center / cover no-repeat;
+  background: url("../../imgs/hero-1.png") center center / cover no-repeat;
 }
 
 .home::before {
