@@ -1,0 +1,403 @@
+@media (max-width: 1180px) {
+  .navbar-inner {
+    gap: 16px;
+  }
+
+  .nav-links {
+    gap: 16px;
+  }
+
+  .nav-links li a {
+    font-size: 0.78rem;
+  }
+
+  .navbar-login-btn {
+    min-width: 168px;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo-image {
+    height: 64px;
+    max-width: none;
+    max-height: none;
+  }
+
+  .nav-actions {
+    margin-left: 0;
+    gap: 12px;
+  }
+
+  .nav-phone {
+    font-size: 0.84rem;
+  }
+
+  .process-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .nav {
+    flex: 0 0 auto;
+    justify-content: flex-end;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 20px;
+    left: 20px;
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    padding: 1.25rem;
+    border: 1px solid rgba(197, 160, 89, 0.18);
+    border-radius: var(--radius-md);
+    background: rgba(8, 17, 31, 0.99);
+    box-shadow: 0 20px 50px rgba(2, 6, 15, 0.48);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    width: 100%;
+    color: rgba(248, 249, 250, 0.9);
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .attorney-shell,
+  .about-shell,
+  .contact-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .attorney-media {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-y: clamp(54px, 10vw, 70px);
+  }
+
+  section {
+    scroll-margin-top: 105px;
+  }
+
+  .container,
+  .process-shell,
+  .final-cta-shell,
+  .contact-shell,
+  .footer-container,
+  .blog-hero-shell,
+  .blog-shell {
+    width: calc(100% - 2rem);
+  }
+
+  .navbar-inner {
+    padding: 0 16px;
+    gap: 12px;
+  }
+
+  .logo-image {
+    height: 56px;
+    max-width: none;
+    max-height: none;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .nav {
+    flex: 0 0 auto;
+    justify-content: flex-end;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 16px;
+    left: 16px;
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    padding: 1.1rem;
+    border: 1px solid rgba(197, 160, 89, 0.18);
+    border-radius: var(--radius-md);
+    background: rgba(8, 17, 31, 0.99);
+    box-shadow: 0 20px 50px rgba(2, 6, 15, 0.48);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    width: 100%;
+    color: rgba(248, 249, 250, 0.9);
+    font-size: 0.84rem;
+  }
+
+  .nav-actions {
+    gap: 10px;
+  }
+
+  .nav-phone {
+    font-size: 0.78rem;
+  }
+
+  .navbar-login-btn {
+    min-width: auto;
+    height: 42px;
+    min-height: 42px;
+    padding: 0 13px;
+    font-size: 0.76rem;
+  }
+
+  .home {
+    min-height: auto;
+    padding: calc(var(--navbar-height) + 32px) 0 4rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-headline {
+    font-size: clamp(2.25rem, 8vw, 3.2rem);
+  }
+
+  .hero-description {
+    font-size: 0.98rem;
+  }
+
+  .attorney-media::before {
+    inset: 16px -12px -12px 16px;
+  }
+
+  .practice-areas-grid,
+  .process-list,
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-area-card {
+    padding: 24px;
+  }
+
+  .practice-area-card-featured {
+    text-align: left;
+  }
+
+  .contact-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-submit {
+    width: 100%;
+  }
+
+  #location.location-section {
+    padding: 90px 0;
+    background-position: center 25%;
+  }
+
+  #location .location-content {
+    width: 100%;
+  }
+
+  #location .location-card {
+    width: 90%;
+  }
+
+  .gallery-slide img {
+    height: 220px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    text-align: center;
+  }
+
+  .footer-column h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer-bottom {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-dev {
+    justify-content: center;
+  }
+
+  .blog-hero {
+    padding: 4.5rem 0 3.25rem;
+  }
+
+  body.rtl .practice-area-card-featured {
+    text-align: right;
+  }
+
+  body.rtl .footer-column h4::after {
+    right: auto;
+    left: 50%;
+  }
+}
+
+@media (max-width: 560px) {
+  section.navbar {
+    height: auto;
+    min-height: var(--navbar-height);
+  }
+
+  .navbar-inner {
+    flex-wrap: wrap;
+    min-height: var(--navbar-height);
+    padding: 0.75rem 12px;
+    row-gap: 0.75rem;
+  }
+
+  .logo-image {
+    height: 48px;
+    max-width: none;
+    max-height: none;
+  }
+
+  .nav {
+    flex: 1 1 auto;
+  }
+
+  .nav-actions {
+    flex: 1 0 100%;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .nav-phone {
+    text-align: center;
+  }
+
+  .navbar-login-btn {
+    width: 100%;
+  }
+
+  .home {
+    padding-top: calc(var(--navbar-height) + 56px);
+  }
+}
+
+@media (max-width: 480px) {
+  .container,
+  .process-shell,
+  .final-cta-shell,
+  .contact-shell,
+  .footer-container,
+  .blog-hero-shell,
+  .blog-shell {
+    width: calc(100% - 1.5rem);
+  }
+
+  .btn,
+  .practice-areas-cta,
+  .final-cta-button,
+  .location-btn,
+  .contact-submit {
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .hero-content {
+    padding-left: 1rem;
+  }
+
+  .hero-headline {
+    font-size: 2.25rem;
+  }
+
+  .about-title,
+  .contact-copy h2,
+  .final-cta h2,
+  .blog-hero h1 {
+    font-size: 2.35rem;
+  }
+
+  .attorney-media {
+    max-width: 100%;
+  }
+
+  .practice-area-card,
+  .process-step,
+  .blog-card {
+    padding: 22px;
+  }
+
+  #location.location-section {
+    padding: 72px 0;
+  }
+
+  #location .location-card {
+    width: 92%;
+    padding: 28px 24px;
+  }
+
+  .footer {
+    padding: 48px 0 26px;
+  }
+
+  .footer-dev {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .whatsapp-btn {
+    right: 14px;
+    bottom: 16px;
+    padding: 12px 14px;
+    font-size: 0.84rem;
+  }
+
+  .top-bt {
+    right: 14px;
+    bottom: 74px;
+  }
+
+  body.rtl .hero-content {
+    padding-right: 1rem;
+  }
+}
