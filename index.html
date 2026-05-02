@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Cabral Alsamhan PLLC is a boutique U.S. law firm providing attorney-led legal representation for immigration matters, with a focus on strategic, personalized service for international professionals, entrepreneurs, and investors." />
+    content="Cabral Alsamhan PLLC is a boutique U.S. law firm providing strategic, attorney-led immigration and business legal representation for international professionals, entrepreneurs, investors, and globally mobile clients." />
   <meta name="keywords"
     content="Cabral Alsamhan PLLC, boutique U.S. immigration law firm, immigration attorney, business immigration, investor visas, Washington DC law firm" />
   <meta name="author" content="Cabral Alsamhan PLLC" />
@@ -17,7 +17,7 @@
   <!-- ========== OPEN GRAPH ========== -->
   <meta property="og:title" content="Cabral Alsamhan PLLC | Strategic U.S. Immigration Law" />
   <meta property="og:description"
-    content="Attorney-led legal representation for U.S. immigration matters, delivered with strategy, precision, and individualized attention." />
+    content="Cabral Alsamhan PLLC is a boutique U.S. law firm providing strategic, attorney-led immigration and business legal representation for international professionals, entrepreneurs, investors, and globally mobile clients." />
   <meta property="og:site_name" content="Cabral Alsamhan PLLC" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="imgs/hero-1.png" />
@@ -25,11 +25,11 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Cabral Alsamhan PLLC | Strategic U.S. Immigration Law" />
   <meta name="twitter:description"
-    content="Attorney-led legal representation for U.S. immigration matters, delivered with strategy, precision, and individualized attention." />
+    content="Cabral Alsamhan PLLC is a boutique U.S. law firm providing strategic, attorney-led immigration and business legal representation for international professionals, entrepreneurs, investors, and globally mobile clients." />
   <meta name="twitter:image" content="imgs/hero-1.png" />
 
   <!-- ========== TITLE & ICONS ========== -->
-  <title data-i18n="site.title">Cabral Alsamhan PLLC | Boutique U.S. Immigration Law Firm</title>
+  <title data-i18n="site.title">Cabral Alsamhan PLLC | Strategic U.S. Immigration Law</title>
   <link rel="icon" href="imgs/lg.png" type="image/png" />
 
   <!-- ========== PERFORMANCE HINTS ========== -->
@@ -55,20 +55,14 @@
   <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-  <!-- ========== INIT THIRD-PARTY LIBRARIES ========== -->
-  <script defer>
-    document.addEventListener("DOMContentLoaded", () => {
-      if (window.AOS) AOS.init({ once: true, duration: 600 });
-    });
-  </script>
 </head>
 
 <body>
   <header class="headnav">
     <section class="navbar" id="main-navbar">
   <div class="navbar-inner">
-    <a href="/" class="logo" aria-label="Cabral Alsamhan PLLC home">
-      <img class="logo-image" src="imgs/lg.png" alt="Cabral Alsamhan PLLC">
+    <a href="index.html" class="logo" aria-label="Cabral Alsamhan PLLC home">
+      <img class="logo-image" src="imgs/lg.png" alt="Cabral Alsamhan PLLC logo">
     </a>
 
     <nav class="nav" aria-label="Primary">
@@ -78,22 +72,29 @@
         <span></span>
       </button>
       <ul class="nav-links">
+
         <li><a href="#home" class="active" data-i18n="nav.home">Home</a></li>
         <li><a href="#our-team" data-i18n="nav.team">Attorneys</a></li>
-        <li><a href="#practice-focus" data-i18n="nav.expertise">Practice Areas</a></li>
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#practice-areas" data-i18n="nav.expertise">Practice Areas</a></li>
         <li><a href="#gallery" data-i18n="nav.video">Gallery</a></li>
         <li><a href="#location" data-i18n="nav.location">Location</a></li>
+        <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
         <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
         <li class="lang-select">
           <select id="lang-switch" class="lang-switch">
             <option value="en">EN</option>
-            <option value="ar">AR</option>
+            <option value="pt">PT</option>
+            <option value="es">ES</option>
           </select>
         </li>
       </ul>
     </nav>
 
     <div class="nav-actions">
+      <a href="tel:+12029462646" class="nav-phone">
+        +1 (202) 946-2646
+      </a>
       <a href="https://calendly.com/eyad-ayed/consultation?month=2025-09" class="navbar-login-btn" target="_blank" rel="noreferrer">
         <span data-i18n="nav.cta">Schedule Consultation</span>
       </a>
@@ -125,7 +126,7 @@
     <section class="attorney-section" id="our-team">
       <div class="container attorney-shell">
         <div class="attorney-media">
-          <img src="imgs/Eyad_Prof_Photo_008.jpg" alt="Dr. Eyad Al-Samhan" class="attorney-portrait">
+          <img src="imgs/Eyad_Prof_Photo_008.jpg" alt="Dr. Eyad Al-Samhan, Managing Attorney at Cabral Alsamhan PLLC" class="attorney-portrait">
         </div>
 
         <div class="attorney-copy">
@@ -142,225 +143,88 @@
         </div>
       </div>
     </section>
-    <section class="layout" id="practice-focus">
-      <div class="container">
-        <div class="immigration" data-aos="flip-right">
-          <h2 data-i18n="expertise.business.title">Business </h2>
 
-          <div class="expertise-items">
-            <div class="expertise-item" data-name="Debt Recovery & Asset Collection"
-              data-desc="We provide comprehensive legal representation for recovering financial and commercial claims within the United States and internationally. Our services include: 
-• Commercial and Individual Debt Collection – Pursuing debts through direct negotiation or formal legal action in federal and state courts.
-• Foreign Judgment Enforcement – Enforcing international court judgments in the U.S. under applicable recognition and enforcement laws.
-• Asset Freezing and Tracing – Locating and securing assets in the U.S. or across borders in collaboration with international legal networks to ensure swift enforcement.
-• Amicable Settlements and Payment Plans – Negotiating structured repayment agreements to protect business relationships while reducing costs and disputes.
-Our team designs effective strategies to recover outstanding amounts quickly, focusing on safeguarding our clients’ reputations and minimizing legal and financial risks in both U.S. and global markets."
-              data-i18n-title="expertise.debt.title" data-i18n-desc="expertise.debt.desc">
-              <strong data-i18n="expertise.debt.title">Debt Recovery & Asset Collection</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Reside and Live in the U.S."
-              data-desc="We assist clients in obtaining or adjusting to lawful permanent resident status (green card) through Smart Solutions suits employment, family, refugee/asylee adjustment, or other qualifying categories. Our team ensures every application is complete and supported, minimizing delays and maximizing the chance of approval."
-              data-i18n-title="expertise.reside.title" data-i18n-desc="expertise.reside.desc">
-              <strong data-i18n="expertise.reside.title">Reside and Live in the U.S.</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Travel Document"
-              data-desc="We give you a chance to travel freely and come back to the U.S. Whether you need advance parole, a refugee travel document, or a re-entry permit, we help clients travel internationally without jeopardizing their U.S. immigration status."
-              data-i18n-title="expertise.travel.title" data-i18n-desc="expertise.travel.desc">
-              <strong data-i18n="expertise.travel.title">Travel Document</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Work Permit"
-              data-desc="We assist with obtaining and renewing Employment Authorization Documents (EAD), ensuring eligibility and timely filings so you can work legally while your immigration case proceeds."
-              data-i18n-title="expertise.work_permit.title" data-i18n-desc="expertise.work_permit.desc">
-              <strong data-i18n="expertise.work_permit.title">Work Permit</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Citizenship"
-              data-desc="Achieving U.S. citizenship is a significant milestone. We guide clients through the naturalization process, including eligibility assessments, application preparation, civics and language test preparation, and representation at interviews, helping you gain all the rights and benefits of citizenship."
-              data-i18n-title="expertise.citizenship.title" data-i18n-desc="expertise.citizenship.desc">
-              <strong data-i18n="expertise.citizenship.title">Citizenship</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Open Business"
-              data-desc="Launching a business in the U.S. requires more than just a good idea—it demands a solid legal foundation. We guide entrepreneurs and foreign investors through every step: choosing the right entity, registering with state authorities, drafting operating agreements, and obtaining necessary licenses. From start-up to expansion, we make sure your business complies with U.S. regulations and is structured for growth."
-              data-i18n-title="expertise.open_business.title" data-i18n-desc="expertise.open_business.desc">
-              <strong data-i18n="expertise.open_business.title">Open Business</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Business Immigration"
-              data-desc="We help entrepreneurs, multinational companies, and skilled professionals secure visas and green cards that allow them to work and invest in the United States. From E-2 investor visas to EB-1 multinational executive petitions, we tailor strategies to meet each client’s unique business goals and growth plans."
-              data-i18n-title="expertise.business_immigration.title" data-i18n-desc="expertise.business_immigration.desc">
-              <strong data-i18n="expertise.business_immigration.title">Business Immigration</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Corporation Law"
-              data-desc="We provide comprehensive corporate law services, from daily governance to major transactions. Our work includes drafting bylaws, negotiating shareholder agreements, managing mergers and acquisitions, and ensuring compliance with federal and state corporate requirements. Whether you’re a small start-up or an established enterprise, we help you maintain strong legal footing."
-              data-i18n-title="expertise.corporation_law.title" data-i18n-desc="expertise.corporation_law.desc">
-              <strong data-i18n="expertise.corporation_law.title">Corporation Law</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Brain Immigration"
-              data-desc="From specialty occupation visas to permanent employment-based green cards, we support businesses and professionals in every employment category, ensuring compliance with complex federal requirements and providing strategic solutions for long-term residency."
-              data-i18n-title="expertise.brain_immigration.title" data-i18n-desc="expertise.brain_immigration.desc">
-              <strong data-i18n="expertise.brain_immigration.title">Brain Immigration</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Skilled Migration – Without a Sponsor"
-              data-desc="Highly accomplished professionals may qualify for immigration based on their expertise without the need for employer sponsorship. We prepare EB-1A (extraordinary ability) and EB-2 National Interest Waiver petitions, showcasing your achievements and demonstrating how your work benefits the U.S., providing a direct path to permanent residency."
-              data-i18n-title="expertise.skilled_no_sponsor.title" data-i18n-desc="expertise.skilled_no_sponsor.desc">
-              <strong data-i18n="expertise.skilled_no_sponsor.title">Skilled Migration – Without a Sponsor</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Work Migration – With a Sponsor"
-              data-desc="For individuals with U.S. job offers, we guide employers and employees through employment-based visas such as H-1B, EB-2, and EB-3. Our services include labor certification (PERM), prevailing wage determinations, and preparation of all supporting documentation to secure a smooth transition to lawful employment in the U.S."
-              data-i18n-title="expertise.work_with_sponsor.title" data-i18n-desc="expertise.work_with_sponsor.desc">
-              <strong data-i18n="expertise.work_with_sponsor.title">Work Migration – With a Sponsor</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Federal Court"
-              data-desc="Our firm represents clients in U.S. Federal Courts nationwide for complex commercial disputes, cross-state enforcement of judgments, and high-stakes litigation. We handle contract breaches, intellectual-property cases, and federal regulatory matters, guiding you through every stage from initial filing to appeals. We focus on strategic advocacy and cost-effective solutions, ensuring your business rights are fully protected."
-              data-i18n-title="expertise.federal_court.title" data-i18n-desc="expertise.federal_court.desc">
-              <strong data-i18n="expertise.federal_court.title">Federal Court</strong>
-            </div>
-          </div>
+    <section class="about-section" id="about">
+      <div class="container about-shell">
+        <div class="about-intro" data-aos="fade-up">
+          <h2 class="about-title" data-i18n="about.title">About Us</h2>
+          <p class="about-lede" data-i18n="about.lede">Cabral Alsamhan PLLC is a boutique law firm specializing in immigration and business law for international professionals, entrepreneurs, and investors seeking premium legal representation.</p>
         </div>
 
-        <div class="areas " data-aos="flip-left">
-          <h2 data-i18n="expertise.immigration.title">Immigration</h2>
-          <div class="expertise-items">
-            <div class="expertise-item" data-name="Arbitration"
-              data-desc="Arbitration offers a private, faster, and often less costly alternative to court litigation. Our attorneys represent businesses in domestic and international arbitration, drafting arbitration clauses, preparing evidence, and advocating before arbitration panels. We ensure your commercial disputes are resolved efficiently while safeguarding your interests."
-              data-i18n-title="expertise.arbitration.title" data-i18n-desc="expertise.arbitration.desc">
-              <strong data-i18n="expertise.arbitration.title">Arbitration</strong>
-            </div>
+        <div class="about-content" data-aos="fade-up" data-aos-delay="120">
+          <article class="about-block">
+            <h3 data-i18n="about.sets.title">What Sets Us Apart</h3>
+            <p data-i18n="about.sets.body">We are a law firm providing direct legal representation, not document-preparation services. Dr. Eyad Al-Samhan is personally involved in every case from initial consultation through resolution. We provide direct attorney oversight, strategic case planning, and individualized legal solutions &mdash; not generic templates or outsourced work.</p>
+          </article>
 
-            <div class="expertise-item" data-name="Investment Immigration"
-              data-desc="Foreign investors can obtain U.S. residency through significant investment and job creation. We craft EB-5 and E-2 visa plans, assist with business formation, and ensure compliance with investment requirements. From due diligence to ongoing support, we help protect your capital while pursuing permanent residency."
-              data-i18n-title="expertise.investment_immigration.title" data-i18n-desc="expertise.investment_immigration.desc">
-              <strong data-i18n="expertise.investment_immigration.title">Investment Immigration</strong>
-            </div>
-
-            <div class="expertise-item" data-name="International Trade"
-              data-desc="International trade requires strict compliance with U.S. and foreign regulations. We advise importers, exporters, and multinational companies on customs law, trade agreements, tariff classifications, and dispute resolution. Whether negotiating cross-border contracts or handling trade sanctions, we help you expand globally while reducing legal and financial risks."
-              data-i18n-title="expertise.international_trade.title" data-i18n-desc="expertise.international_trade.desc">
-              <strong data-i18n="expertise.international_trade.title">International Trade</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Asylum"
-              data-desc="For individuals facing persecution based on race, religion, nationality, political opinion, or membership in a particular social group, we provide compassionate and thorough asylum representation. We prepare detailed applications, gather critical evidence, and advocate vigorously before immigration courts and USCIS to secure safety and a future in the U.S."
-              data-i18n-title="expertise.asylum.title" data-i18n-desc="expertise.asylum.desc">
-              <strong data-i18n="expertise.asylum.title">Asylum</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Patents & Intellectual Property"
-              data-desc="Innovation deserves protection. We assist inventors, entrepreneurs, and businesses in obtaining U.S. and international patents, conducting prior-art searches, drafting and filing applications, and enforcing patents against infringement. By safeguarding your intellectual property, we help you turn creativity into lasting business advantage."
-              data-i18n-title="expertise.patents_ip.title" data-i18n-desc="expertise.patents_ip.desc">
-              <strong data-i18n="expertise.patents_ip.title">Patents & Intellectual Property</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Detained Cases – ICE"
-              data-desc="If you or a loved one is in ICE detention, immediate action is critical. We provide aggressive representation for bond hearings, parole requests, and removal defense. Our team works tirelessly to secure release and fight deportation."
-              data-i18n-title="expertise.detained_cases.title" data-i18n-desc="expertise.detained_cases.desc">
-              <strong data-i18n="expertise.detained_cases.title">Detained Cases – ICE</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Bankruptcy Law"
-              data-desc="When financial challenges arise, we offer guidance through the complex bankruptcy process. We represent both debtors and creditors in Chapter 7 liquidation, Chapter 11 reorganization, and Chapter 13 repayment plans. Our goal is to protect your assets, negotiate with creditors, and position your business or personal finances for a fresh start."
-              data-i18n-title="expertise.bankruptcy.title" data-i18n-desc="expertise.bankruptcy.desc">
-              <strong data-i18n="expertise.bankruptcy.title">Bankruptcy Law</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Removal Defense – Immigration Court Cases"
-              data-desc="Facing removal proceedings can be overwhelming. We provide full representation before immigration courts, preparing evidence, cross-examining witnesses, and filing appeals or motions to reopen to protect your right to remain in the U.S."
-              data-i18n-title="expertise.removal_defense.title" data-i18n-desc="expertise.removal_defense.desc">
-              <strong data-i18n="expertise.removal_defense.title">Removal Defense – Immigration Court Cases</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Contract Drafting & Negotiation"
-              data-desc="Careful contract preparation protects your interests. We draft, review, and negotiate commercial agreements—partnership contracts, service agreements, non-disclosure agreements, and more—to minimize risk and avoid costly disputes."
-              data-i18n-title="expertise.contract_drafting.title" data-i18n-desc="expertise.contract_drafting.desc">
-              <strong data-i18n="expertise.contract_drafting.title">Contract Drafting & Negotiation</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Family-Based Immigration"
-              data-desc="Reuniting families is at the heart of immigration law. We handle petitions for spouses, children, parents, and siblings, ensuring applications are accurate and compelling, and guiding families through the entire process to bring loved ones together."
-              data-i18n-title="expertise.family_immigration.title" data-i18n-desc="expertise.family_immigration.desc">
-              <strong data-i18n="expertise.family_immigration.title">Family-Based Immigration</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Commercial Litigation"
-              data-desc="When conflicts arise, we represent businesses in state and federal courts for breach of contract, fraud, unfair competition, and other complex commercial matters, combining aggressive advocacy with strategic settlement approaches."
-              data-i18n-title="expertise.commercial_litigation.title" data-i18n-desc="expertise.commercial_litigation.desc">
-              <strong data-i18n="expertise.commercial_litigation.title">Commercial Litigation</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Hardship Waivers"
-              data-desc="Certain grounds of inadmissibility can be waived if a U.S. citizen or permanent-resident relative would suffer extreme hardship. We prepare persuasive I-601 and I-601A waiver applications supported by strong evidence and legal argument."
-              data-i18n-title="expertise.hardship_waivers.title" data-i18n-desc="expertise.hardship_waivers.desc">
-              <strong data-i18n="expertise.hardship_waivers.title">Hardship Waivers</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Real Estate & Leasing"
-              data-desc="Comprehensive counsel for commercial property purchases, sales, leasing, zoning, and development projects. We draft leases, negotiate terms, and address landlord-tenant disputes for retail, office, and industrial properties."
-              data-i18n-title="expertise.real_estate.title" data-i18n-desc="expertise.real_estate.desc">
-              <strong data-i18n="expertise.real_estate.title">Real Estate & Leasing</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Criminal & Immigration Consequences"
-              data-desc="We provide strategic legal representation for criminal charges and violations that can impact immigration status, including:
-• Criminal Defense with Immigration Focus
-• Post-Conviction Relief
-• Immigration-Safe Plea Negotiations
-• Advisory for Non-Citizens
-Our integrated approach combines deep knowledge of both immigration and criminal law, ensuring that every defense strategy minimizes the risk of removal, protects eligibility for relief, and preserves long-term immigration goals."
-              data-i18n-title="expertise.criminal_immigration.title" data-i18n-desc="expertise.criminal_immigration.desc">
-              <strong data-i18n="expertise.criminal_immigration.title">Criminal & Immigration Consequences</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Regulatory & Compliance Counseling"
-              data-desc="Advising businesses on industry-specific regulations—finance, healthcare, technology, import/export—so you can operate confidently within federal and state requirements."
-              data-i18n-title="expertise.regulatory_compliance.title" data-i18n-desc="expertise.regulatory_compliance.desc">
-              <strong data-i18n="expertise.regulatory_compliance.title">Regulatory & Compliance Counseling</strong>
-            </div>
-
-            <div class="expertise-item" data-name="U-Visa"
-              data-desc="Victims of serious crimes who assist law enforcement can obtain U-Visas, granting lawful status and work authorization. We gather supporting evidence and work closely with law-enforcement agencies to help clients achieve stability and safety."
-              data-i18n-title="expertise.u_visa.title" data-i18n-desc="expertise.u_visa.desc">
-              <strong data-i18n="expertise.u_visa.title">U-Visa</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Tax Planning & Controversy"
-              data-desc="Business-focused tax structuring, federal and state tax planning, and representation in IRS audits and disputes to optimize your tax position and resolve conflicts."
-              data-i18n-title="expertise.tax_planning.title" data-i18n-desc="expertise.tax_planning.desc">
-              <strong data-i18n="expertise.tax_planning.title">Tax Planning & Controversy</strong>
-            </div>
-
-            <div class="expertise-item" data-name="VAWA"
-              data-desc="Under the Violence Against Women Act, survivors of domestic violence—regardless of gender—can self-petition for legal status without relying on their abuser. We provide discreet, respectful representation to help clients find safety and independence."
-              data-i18n-title="expertise.vawa.title" data-i18n-desc="expertise.vawa.desc">
-              <strong data-i18n="expertise.vawa.title">VAWA</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Business Succession & Estate Planning"
-              data-desc="Customized plans for ownership transfers, family business succession, and key-person agreements to safeguard your legacy and continuity."
-              data-i18n-title="expertise.business_succession.title" data-i18n-desc="expertise.business_succession.desc">
-              <strong data-i18n="expertise.business_succession.title">Business Succession & Estate Planning</strong>
-            </div>
-
-            <div class="expertise-item" data-name="Legal Entry to the United States"
-              data-desc="We provide complete legal support for all types of U.S. visas, ensuring smooth entry and compliance with immigration law:
-• Non-immigrant Visas
-• Immigrant Visas
-• Expedited & Emergency Visas
-• Humanitarian Visas & Relief
-Our experienced legal team manages all documentation, communicates with U.S. consulates and immigration agencies, and provides personalized strategies to maximize approval and meet critical timelines."
-              data-i18n-title="expertise.legal_entry.title" data-i18n-desc="expertise.legal_entry.desc">
-              <strong data-i18n="expertise.legal_entry.title">Legal Entry to the United States</strong>
-            </div>
-          </div>
+          <article class="about-block">
+            <h3 data-i18n="about.service.title">White Glove Service</h3>
+            <p data-i18n="about.service.body">Every client receives dedicated support from a qualified case manager who coordinates all aspects of your case. Your case manager serves as your primary point of contact, ensuring seamless communication, timely updates, and personalized attention throughout the entire legal process.</p>
+          </article>
         </div>
+      </div>
+    </section>
+
+    <section id="practice-areas" class="practice-areas-section">
+      <div class="container practice-areas-shell">
+        <header class="practice-areas-header">
+          <h2 data-i18n="practice.title">Practice Areas</h2>
+          <p data-i18n="practice.intro">Cabral Alsamhan PLLC provides attorney-led representation across immigration and business-related legal matters for international professionals, entrepreneurs, investors, and globally mobile clients.</p>
+        </header>
+
+        <div class="practice-areas-grid">
+          <article class="practice-area-card" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.business.title">Business Immigration</h3>
+            <p class="card-description" data-i18n="practice.business.description">Strategic visa and residency planning for founders, executives, multinational teams, and professionals pursuing lawful U.S. business mobility.</p>
+          </article>
+
+          <article class="practice-area-card" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.investor.title">Investor Visas</h3>
+            <p class="card-description" data-i18n="practice.investor.description">Counsel for investors and entrepreneurs seeking investment-based immigration pathways, including business structuring and petition strategy.</p>
+          </article>
+
+          <article class="practice-area-card" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.employment.title">Employment-Based Immigration</h3>
+            <p class="card-description" data-i18n="practice.employment.description">Attorney-led preparation for employment-based petitions, work authorization matters, and long-term immigration planning for qualified professionals.</p>
+          </article>
+
+          <article class="practice-area-card" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.family.title">Family-Based Immigration</h3>
+            <p class="card-description" data-i18n="practice.family.description">Careful representation for family petitions, adjustment matters, consular processing, and related filings designed to bring families together lawfully.</p>
+          </article>
+
+          <article class="practice-area-card" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.citizenship.title">Citizenship &amp; Naturalization</h3>
+            <p class="card-description" data-i18n="practice.citizenship.description">Guidance through eligibility review, application preparation, interview readiness, and the final steps toward U.S. citizenship.</p>
+          </article>
+
+          <article class="practice-area-card" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.removal.title">Removal Defense</h3>
+            <p class="card-description" data-i18n="practice.removal.description">Representation in immigration court matters, removal defense strategy, bond issues, evidence preparation, and related proceedings.</p>
+          </article>
+
+          <article class="practice-area-card" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.asylum.title">Asylum &amp; Humanitarian Relief</h3>
+            <p class="card-description" data-i18n="practice.asylum.description">Discreet, thorough representation for asylum, humanitarian protections, and sensitive immigration matters requiring detailed case development.</p>
+          </article>
+
+          <article class="practice-area-card" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.corporate.title">Corporate &amp; Business Law</h3>
+            <p class="card-description" data-i18n="practice.corporate.description">Legal support for company formation, contracts, governance, commercial planning, and cross-border business operations in the United States.</p>
+          </article>
+
+          <article class="practice-area-card" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.litigation.title">Federal Litigation &amp; Appeals</h3>
+            <p class="card-description" data-i18n="practice.litigation.description">Strategic representation in complex federal matters, agency-related disputes, appeals, and high-stakes legal challenges.</p>
+          </article>
+
+          <article class="practice-area-card practice-area-card-featured" tabindex="0">
+            <h3 class="card-title" data-i18n="practice.complex.title">Strategic &amp; Complex Filings</h3>
+            <p class="card-description" data-i18n="practice.complex.description">Premium attorney-led planning for complex immigration and business filings requiring careful legal analysis, documentation strategy, and direct oversight.</p>
+          </article>
+        </div>
+
+        <a href="https://calendly.com/eyad-ayed/consultation?month=2025-09" class="practice-areas-cta" target="_blank" rel="noreferrer" data-i18n="practice.cta">SCHEDULE YOUR CONSULTATION</a>
       </div>
     </section>
 
@@ -418,25 +282,25 @@ Our experienced legal team manages all documentation, communicates with U.S. con
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="gallery-slide">
-                  <img src="imgs/gallery/1.png" alt="Cabral Alsamhan PLLC gallery image 1">
+                  <img src="imgs/gallery/1.png" alt="Cabral Alsamhan PLLC office gallery image 1">
                 </div>
               </div>
 
               <div class="swiper-slide">
                 <div class="gallery-slide">
-                  <img src="imgs/gallery/2.png" alt="Cabral Alsamhan PLLC gallery image 2">
+                  <img src="imgs/gallery/2.png" alt="Cabral Alsamhan PLLC office gallery image 2">
                 </div>
               </div>
 
               <div class="swiper-slide">
                 <div class="gallery-slide">
-                  <img src="imgs/gallery/3.png" alt="Cabral Alsamhan PLLC gallery image 3">
+                  <img src="imgs/gallery/3.png" alt="Cabral Alsamhan PLLC office gallery image 3">
                 </div>
               </div>
 
               <div class="swiper-slide">
                 <div class="gallery-slide">
-                  <img src="imgs/gallery/4.png" alt="Cabral Alsamhan PLLC gallery image 4">
+                  <img src="imgs/gallery/4.png" alt="Cabral Alsamhan PLLC office gallery image 4">
                 </div>
               </div>
             </div>
@@ -449,29 +313,26 @@ Our experienced legal team manages all documentation, communicates with U.S. con
     </section>
 
     <section id="location" class="location-section">
-      <div class="container">
-        <h2 class="section-title" data-i18n="locations.title">Location</h2>
+      <div class="location-overlay"></div>
 
-        <a
-          href="https://www.google.com/maps/place/Washington+Square/@38.903415,-77.0407165,774m/data=!3m2!1e3!4b1!4m6!3m5!1s0x89b7b7b9164bdd2f:0x17aa9d22f356533c!8m2!3d38.903415!4d-77.0407165!16s%2Fg%2F11_s7lh9y?entry=ttu&g_ep=EgoyMDI2MDMyMy4xIKXMDSoASAFQAw%3D%3D"
-          target="_blank"
-          rel="noreferrer"
-          class="location-card"
-          aria-label="Open Cabral Alsamhan PLLC location in Google Maps"
-        >
-          <div class="location-card-inner">
-            <div class="location-flag" aria-hidden="true">🇺🇸</div>
+      <div class="container location-content">
+        <div class="location-card">
+          <h3 data-i18n="contact.info.firm">Cabral Alsamhan PLLC</h3>
 
-            <div class="location-info">
-              <h3 data-i18n="location.line1">Cabral Alsamhan PLLC</h3>
-              <p>
-                <span data-i18n="location.line2">1050 Connecticut Ave NW</span><br>
-                <span data-i18n="location.line3">Suite 500, Office 5134</span><br>
-                <span data-i18n="location.line4">Washington, DC</span>
-              </p>
-            </div>
-          </div>
-        </a>
+          <p>
+            <span data-i18n="contact.info.address1">1050 Connecticut Ave NW</span><br>
+            <span data-i18n="contact.info.address2">Suite 500, Office 5134</span><br>
+            <span data-i18n="contact.info.address3">Washington, DC</span>
+          </p>
+
+          <a href="https://www.google.com/maps/place/Washington+Square/@38.903415,-77.0407165"
+             target="_blank"
+             rel="noreferrer"
+             class="location-btn"
+             data-i18n="location.map">
+            View on Map
+          </a>
+        </div>
       </div>
     </section>
 
@@ -491,11 +352,7 @@ Our experienced legal team manages all documentation, communicates with U.S. con
 
             <p>
               <strong data-i18n="contact.info.phone.label">Phone:</strong>
-              <span data-i18n="contact.info.phone.value">(placeholder)</span>
-            </p>
-            <p>
-              <strong data-i18n="contact.info.email.label">Email:</strong>
-              <span data-i18n="contact.info.email.value">(placeholder)</span>
+              <a href="tel:+12029462646" data-i18n="contact.info.phone.value">+1 (202) 946-2646</a>
             </p>
           </div>
         </div>
@@ -547,66 +404,53 @@ Our experienced legal team manages all documentation, communicates with U.S. con
       </div>
     </section>
 
-    <div id="expertise-popup" class="expertise-popup">
-      <div class="expertise-popup-content">
-        <span class="expertise-close">&times;</span>
-        <div class="expertise-popup-text">
-          <h3 id="expertise-popup-name"></h3>
-          <p id="expertise-popup-desc"></p>
-          <div class="consultation-button-container">
-            <a href="https://calendly.com/eyad-ayed/consultation?month=2025-09" class="consultation-btn"
-              target="_blank">
-              <span data-i18n="expertise.popup.cta">Book a Consultation</span>
-              <svg class="my-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <path d="M14.286 19.401l0.678 0.6L24 11.999l-9.035-8l-0.678 0.6l7.878 6.976H0v0.849H22.165Z"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
 <footer class="footer">
   <div class="container footer-container">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <h3 data-i18n="footer.brand">Cabral Alsamhan PLLC</h3>
+    <div class="footer-grid">
+      <div class="footer-column footer-brand-block">
+        <h3 class="footer-firm" data-i18n="contact.info.firm">Cabral Alsamhan PLLC</h3>
+        <p class="footer-tagline" data-i18n="footer.tagline">Boutique U.S. Immigration Law Firm</p>
       </div>
-    </div>
 
-    <div class="footer-divider"></div>
+      <div class="footer-column footer-contact">
+        <h4 data-i18n="footer.contact.title">Contact</h4>
+        <address>
+          <span data-i18n="contact.info.address1">1050 Connecticut Ave NW</span><br>
+          <span data-i18n="contact.info.address2">Suite 500, Office 5134</span><br>
+          <span data-i18n="contact.info.address3">Washington, DC</span>
+        </address>
+        <a href="tel:+12029462646">+1 (202) 946-2646</a>
+      </div>
 
-    <div class="footer-content">
-      <p class="footer-disclaimer" data-i18n="footer.disclaimer">
-        The information on this website is for general information purposes only. Nothing on this site should be taken
-        as legal advice for any individual case or situation.
-      </p>
-
-      <p class="footer-disclaimer" data-i18n="footer.no_attorney_client">
-        This information is not intended to create, and receipt or viewing does not constitute, an attorney-client
-        relationship.
-      </p>
-
-      <p class="footer-dev">
-        <span data-i18n="footer.developer.prefix">Website developed by Eng/Seif Magdy</span>
-        <span aria-hidden="true"> — </span>
-        <a href="https://www.linkedin.com/in/seif-magdy23/" target="_blank" rel="noreferrer"
-          data-i18n="footer.developer.linkedin">LinkedIn</a>
-        <span aria-hidden="true"> — </span>
-        <a href="https://wa.me/201091334384" target="_blank" rel="noreferrer"
-          data-i18n="footer.developer.phone">+201091334384</a>
-      </p>
+      <div class="footer-column footer-legal">
+        <h4 data-i18n="footer.legal.title">Legal</h4>
+        <p data-i18n="footer.legal.disclaimer">The information provided on this website is for informational purposes only and does not constitute legal advice. Contacting the firm does not create an attorney-client relationship.</p>
+      </div>
     </div>
 
     <div class="footer-bottom">
-      <p data-i18n="footer.copyright">© 2026 ALL RIGHTS RESERVED.</p>
+      <p data-i18n="footer.copyright">&copy; 2026 Cabral Alsamhan PLLC. All rights reserved.</p>
+      <p class="footer-dev">
+        <span data-i18n="footer.developer.prefix">Website developed by Eng/Seif Magdy</span>
+        <a href="https://www.linkedin.com/in/seif-magdy23/" target="_blank" rel="noreferrer" data-i18n="footer.developer.linkedin">LinkedIn</a>
+        <a href="https://wa.me/201091334384" target="_blank" rel="noreferrer" data-i18n="footer.developer.phone">Phone: +201091334384</a>
+      </p>
     </div>
   </div>
 </footer>
 
+<a href="https://wa.me/12029462646"
+   class="whatsapp-btn"
+   target="_blank"
+   rel="noreferrer"
+   aria-label="Chat with us on WhatsApp">
+  <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  <span data-i18n="whatsapp.text">Chat with Us</span>
+</a>
+
 <a href="#home" class="top-bt" id="scrollToTopBtn">^</a>
 
-<!-- سكربتاتك الأساسية -->
-<!-- i18next (required by assets/js/main.js) -->
+
 <script defer src="https://unpkg.com/i18next@22.5.1/dist/umd/i18next.min.js"></script>
 <script defer src="assets/js/main.js"></script>
 
