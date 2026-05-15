@@ -18,10 +18,20 @@
 }
 
 @media (max-width: 1024px) {
+  :root {
+    --navbar-height: 100px;
+    --logo-height: 75px;
+  }
+
+  section.navbar {
+    height: 100px;
+  }
+
   .logo-image {
-    height: 64px;
+    height: var(--logo-height);
+    min-height: var(--logo-height);
+   height: 100px;
     max-width: none;
-    max-height: none;
   }
 
   .nav-actions {
@@ -86,6 +96,7 @@
 }
 
 @media (max-width: 900px) {
+
   .attorney-shell,
   .about-shell,
   .contact-shell {
@@ -99,11 +110,17 @@
 
 @media (max-width: 768px) {
   :root {
+    --navbar-height: 80px;
+    --logo-height: 60px;
     --section-y: clamp(54px, 10vw, 70px);
   }
 
   section {
     scroll-margin-top: 105px;
+  }
+
+  section.navbar {
+    height: 80px;
   }
 
   .container,
@@ -117,14 +134,16 @@
   }
 
   .navbar-inner {
+    height: 100%;
     padding: 0 16px;
     gap: 12px;
   }
 
   .logo-image {
-    height: 56px;
+    height: var(--logo-height);
+    min-height: var(--logo-height);
+    max-height: var(--logo-height);
     max-width: none;
-    max-height: none;
   }
 
   .menu-toggle {
@@ -187,6 +206,7 @@
   .home {
     min-height: auto;
     padding: calc(var(--navbar-height) + 32px) 0 4rem;
+    background-position: 72% center;
   }
 
   .hero-content {
@@ -205,18 +225,20 @@
     inset: 16px -12px -12px 16px;
   }
 
-  .practice-areas-grid,
+  .cards-grid,
   .process-list,
   .blog-grid {
     grid-template-columns: 1fr;
   }
 
-  .practice-area-card {
+  .practice-card {
     padding: 24px;
+    min-height: auto;
   }
 
-  .practice-area-card-featured {
-    text-align: left;
+  .featured-card {
+    padding: 28px;
+    min-height: auto;
   }
 
   .contact-form-grid {
@@ -241,7 +263,18 @@
   }
 
   .gallery-slide img {
-    height: 220px;
+    height: 280px;
+    object-fit: contain;
+    object-position: center;
+    background: #f8f9fa;
+  }
+
+  .gallery-swiper .swiper-button-prev {
+    left: 10px;
+  }
+
+  .gallery-swiper .swiper-button-next {
+    right: 10px;
   }
 
   .footer-grid {
@@ -268,8 +301,8 @@
     padding: 4.5rem 0 3.25rem;
   }
 
-  body.rtl .practice-area-card-featured {
-    text-align: right;
+  body.rtl .featured-card {
+    text-align: center;
   }
 
   body.rtl .footer-column h4::after {
@@ -279,22 +312,31 @@
 }
 
 @media (max-width: 560px) {
+
+  :root,
+  html[class*="header-logo-option-"] {
+    --navbar-height: 90px;
+    --logo-height: 65px;
+  }
+
   section.navbar {
     height: auto;
-    min-height: var(--navbar-height);
+    min-height: 90px;
   }
 
   .navbar-inner {
     flex-wrap: wrap;
-    min-height: var(--navbar-height);
+    height: auto;
+    min-height: 90px;
     padding: 0.75rem 12px;
     row-gap: 0.75rem;
   }
 
   .logo-image {
-    height: 48px;
+    height: var(--logo-height);
+    min-height: var(--logo-height);
+    max-height: var(--logo-height);
     max-width: none;
-    max-height: none;
   }
 
   .nav {
@@ -318,10 +360,12 @@
 
   .home {
     padding-top: calc(var(--navbar-height) + 56px);
+    background-position: 70% center;
   }
 }
 
 @media (max-width: 480px) {
+
   .container,
   .process-shell,
   .final-cta-shell,
@@ -333,7 +377,7 @@
   }
 
   .btn,
-  .practice-areas-cta,
+  .cta-button,
   .final-cta-button,
   .location-btn,
   .contact-submit {
@@ -361,7 +405,7 @@
     max-width: 100%;
   }
 
-  .practice-area-card,
+  .practice-card,
   .process-step,
   .blog-card {
     padding: 22px;
@@ -376,6 +420,44 @@
     padding: 28px 24px;
   }
 
+  .gallery-slide img {
+    height: 220px;
+  }
+
+  .gallery-slider-container {
+    padding-bottom: 50px;
+  }
+
+  .gallery-swiper .swiper-button-prev,
+  .gallery-swiper .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  .gallery-swiper .swiper-button-prev {
+    left: 8px;
+  }
+
+  .gallery-swiper .swiper-button-next {
+    right: 8px;
+  }
+
+  .gallery-dots {
+    gap: 6px;
+    margin-top: 20px;
+  }
+
+  .gallery-dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .gallery-dot.active {
+    width: 10px;
+    height: 10px;
+  }
+
   .footer {
     padding: 48px 0 26px;
   }
@@ -385,11 +467,12 @@
     gap: 6px;
   }
 
-  .whatsapp-btn {
+  .livechat-btn {
     right: 14px;
     bottom: 16px;
-    padding: 12px 14px;
-    font-size: 0.84rem;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
   }
 
   .top-bt {

@@ -11,12 +11,34 @@
   --border-soft: rgba(11, 22, 44, 0.1);
   --font-body: "Montserrat", Arial, sans-serif;
   --font-heading: "Playfair Display", Georgia, serif;
-  --navbar-height: 95px;
+  --navbar-height: 100px;
+  --logo-height: 75px;
   --container-max: 1200px;
   --section-y: clamp(80px, 8vw, 100px);
   --radius-sm: 4px;
   --radius-md: 6px;
   --transition: 0.3s ease;
+}
+
+/* Header logo review options. Swap the class on <html> to preview A, B, C, or D. */
+html.header-logo-option-a {
+  --navbar-height: 80px;
+  --logo-height: 55px;
+}
+
+html.header-logo-option-b {
+  --navbar-height: 90px;
+  --logo-height: 65px;
+}
+
+html.header-logo-option-c {
+  --navbar-height: 100px;
+  --logo-height: 75px;
+}
+
+html.header-logo-option-d {
+  --navbar-height: 110px;
+  --logo-height: 85px;
 }
 
 *,
@@ -170,7 +192,7 @@ section {
 }
 
 section.navbar {
-  height: 95px;
+  height: var(--navbar-height);
   padding: 0;
   border-bottom: 1px solid rgba(197, 160, 89, 0.16);
   background: rgba(8, 17, 31, 0.97);
@@ -199,19 +221,20 @@ section.navbar.scrolled {
 .logo {
   display: flex;
   flex: 0 0 auto;
+  height: 100%;
   align-items: center;
   justify-content: flex-start;
   text-decoration: none;
 }
 
 .logo-image {
-  height: 85px;
+  flex: 0 0 auto;
+  height: var(--logo-height);
+  min-height: var(--logo-height);
   width: auto;
   max-width: none;
-  max-height: none;
+  max-height: var(--logo-height);
   object-fit: contain;
-  transform: scale(1.3);
-  transform-origin: left center;
 }
 
 .nav {
@@ -313,6 +336,7 @@ section.navbar.scrolled {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
+  align-self: center;
   gap: 16px;
   margin-left: 8px;
 }
@@ -330,6 +354,7 @@ section.navbar.scrolled {
 }
 
 .navbar-login-btn {
+  flex: 0 0 auto;
   min-width: 188px;
   height: 44px;
   min-height: 44px;
@@ -345,7 +370,11 @@ section.navbar.scrolled {
   align-items: center;
   padding: calc(var(--navbar-height) + 20px) 0 4.5rem;
   overflow: hidden;
-  background: url("../../imgs/hero-1.png") center center / cover no-repeat;
+  background-color: var(--color-navy);
+  background-image: url("../../imgs/dc-location.jpg");
+  background-position: right center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: var(--color-ivory);
 }
 
@@ -353,7 +382,7 @@ section.navbar.scrolled {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(100deg, rgba(8, 17, 31, 0.92) 0%, rgba(11, 22, 44, 0.76) 48%, rgba(11, 22, 44, 0.22) 100%);
+  background: rgba(11, 22, 44, 0.75);
 }
 
 .home .container {

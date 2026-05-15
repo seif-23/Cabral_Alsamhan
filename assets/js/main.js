@@ -98,34 +98,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const isRTL = () => document.body.classList.contains("rtl");
 
   const initGallerySwiper = () => {
-    if (typeof Swiper === "undefined") return;
-    const sliderEl = document.querySelector(".gallery-swiper");
-    if (!sliderEl) return;
-
-    if (gallerySwiperInstance && typeof gallerySwiperInstance.destroy === "function") {
-      gallerySwiperInstance.destroy(true, true);
-    }
-
-    sliderEl.setAttribute("dir", isRTL() ? "rtl" : "ltr");
-
-    gallerySwiperInstance = new Swiper(".gallery-swiper", {
-      slidesPerView: 1,
-      loop: true,
-      speed: 800,
-      effect: "fade",
-      fadeEffect: {
-        crossFade: true,
-      },
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
-      },
-      navigation: {
-        nextEl: ".gallery-section .swiper-button-next",
-        prevEl: ".gallery-section .swiper-button-prev",
-      },
-    });
+    // Gallery initialization is now handled by gallery.js
+    // This function is kept for compatibility with language switching
   };
 
   const loadLocale = async (lng) => {

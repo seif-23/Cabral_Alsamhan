@@ -18,10 +18,21 @@
 }
 
 @media (max-width: 1024px) {
+  :root,
+  html[class*="header-logo-option-"] {
+    --navbar-height: 88px;
+    --logo-height: 64px;
+  }
+
+  section.navbar {
+    height: 88px;
+  }
+
   .logo-image {
-    height: 64px;
+    height: var(--logo-height);
+    min-height: var(--logo-height);
+    max-height: var(--logo-height);
     max-width: none;
-    max-height: none;
   }
 
   .nav-actions {
@@ -99,11 +110,22 @@
 
 @media (max-width: 768px) {
   :root {
+    --navbar-height: 84px;
+    --logo-height: 56px;
     --section-y: clamp(54px, 10vw, 70px);
+  }
+
+  html[class*="header-logo-option-"] {
+    --navbar-height: 84px;
+    --logo-height: 56px;
   }
 
   section {
     scroll-margin-top: 105px;
+  }
+
+  section.navbar {
+    height: 84px;
   }
 
   .container,
@@ -117,14 +139,16 @@
   }
 
   .navbar-inner {
+    height: 100%;
     padding: 0 16px;
     gap: 12px;
   }
 
   .logo-image {
-    height: 56px;
+    height: var(--logo-height);
+    min-height: var(--logo-height);
+    max-height: var(--logo-height);
     max-width: none;
-    max-height: none;
   }
 
   .menu-toggle {
@@ -187,6 +211,7 @@
   .home {
     min-height: auto;
     padding: calc(var(--navbar-height) + 32px) 0 4rem;
+    background-position: 72% center;
   }
 
   .hero-content {
@@ -216,7 +241,7 @@
   }
 
   .practice-area-card-featured {
-    text-align: left;
+    text-align: center;
   }
 
   .contact-form-grid {
@@ -269,7 +294,7 @@
   }
 
   body.rtl .practice-area-card-featured {
-    text-align: right;
+    text-align: center;
   }
 
   body.rtl .footer-column h4::after {
@@ -279,22 +304,30 @@
 }
 
 @media (max-width: 560px) {
+  :root,
+  html[class*="header-logo-option-"] {
+    --navbar-height: 84px;
+    --logo-height: 48px;
+  }
+
   section.navbar {
     height: auto;
-    min-height: var(--navbar-height);
+    min-height: 84px;
   }
 
   .navbar-inner {
     flex-wrap: wrap;
-    min-height: var(--navbar-height);
+    height: auto;
+    min-height: 84px;
     padding: 0.75rem 12px;
     row-gap: 0.75rem;
   }
 
   .logo-image {
-    height: 48px;
+    height: var(--logo-height);
+    min-height: var(--logo-height);
+    max-height: var(--logo-height);
     max-width: none;
-    max-height: none;
   }
 
   .nav {
@@ -318,6 +351,7 @@
 
   .home {
     padding-top: calc(var(--navbar-height) + 56px);
+    background-position: 70% center;
   }
 }
 
