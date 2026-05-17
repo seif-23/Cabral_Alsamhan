@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.getElementById("menu-toggle");
   const navList = document.querySelector(".nav-links");
   const navbar = document.querySelector("section.navbar");
+  const header = document.querySelector(".headnav");
   const navLinks = Array.from(document.querySelectorAll(".nav-links li a"));
   const sections = Array.from(document.querySelectorAll("main section[id]"));
   const topBtn = document.getElementById("scrollToTopBtn");
@@ -9,6 +10,26 @@ document.addEventListener("DOMContentLoaded", () => {
   const langSwitch = document.getElementById("lang-switch");
   const supportedLanguages = new Set(["en", "pt", "es"]);
   const rtlLanguages = new Set(["ar", "he", "fa", "ur"]);
+  const mobileNavQuery = window.matchMedia("(max-width: 1100px)");
+  let scrollLockY = 0;
+  let isScrollLocked = false;
+
+  if (navList && !navList.id) {
+    navList.id = "primary-menu";
+  }
+
+  if (toggleBtn && navList) {
+    toggleBtn.setAttribute("aria-controls", navList.id);
+    toggleBtn.setAttribute("aria-expanded", "false");
+  }
+
+  let menuOverlay = document.querySelector(".mobile-menu-overlay");
+  if (header && !menuOverlay) {
+    menuOverlay = document.createElement("div");
+    menuOverlay.className = "mobile-menu-overlay";
+    menuOverlay.setAttribute("aria-hidden", "true");
+    header.appendChild(menuOverlay);
+  }
 
   const normalizeLanguage = (lng) => (supportedLanguages.has(lng) ? lng : "en");
 
@@ -18,28 +39,82 @@ document.addEventListener("DOMContentLoaded", () => {
     return value && value !== key ? value : fallback;
   };
 
+  const preventBackgroundTouchScroll = (event) => {
+    if (!navList?.contains(event.target)) {
+      event.preventDefault();
+    }
+  };
+
+  const lockPageScroll = () => {
+    if (isScrollLocked) return;
+    scrollLockY = window.scrollY;
+    document.documentElement.style.overflow = "hidden";
+    document.body.style.overflow = "hidden";
+    document.addEventListener("touchmove", preventBackgroundTouchScroll, { passive: false });
+    isScrollLocked = true;
+  };
+
+  const unlockPageScroll = () => {
+    if (!isScrollLocked) return;
+    document.documentElement.style.overflow = "";
+    document.body.style.overflow = "";
+    document.removeEventListener("touchmove", preventBackgroundTouchScroll);
+    isScrollLocked = false;
+    window.scrollTo(0, scrollLockY);
+  };
+
+  const setMobileMenuState = (isOpen) => {
+    if (!navList || !toggleBtn) return;
+
+    const shouldOpen = Boolean(isOpen) && mobileNavQuery.matches;
+    navList.classList.toggle("open", shouldOpen);
+    toggleBtn.classList.toggle("open", shouldOpen);
+    header?.classList.toggle("menu-open", shouldOpen);
+    document.documentElement.classList.toggle("nav-open", shouldOpen);
+    document.body.classList.toggle("nav-open", shouldOpen);
+    toggleBtn.setAttribute("aria-expanded", String(shouldOpen));
+
+    if (shouldOpen) {
+      lockPageScroll();
+    } else {
+      unlockPageScroll();
+    }
+  };
+
   const closeMobileMenu = () => {
-    navList?.classList.remove("open");
-    toggleBtn?.classList.remove("open");
+    setMobileMenuState(false);
   };
 
   toggleBtn?.addEventListener("click", () => {
-    navList?.classList.toggle("open");
-    toggleBtn.classList.toggle("open");
+    setMobileMenuState(!navList?.classList.contains("open"));
   });
 
   navLinks.forEach((link) => {
     link.addEventListener("click", () => {
-      if (link.getAttribute("href")?.startsWith("#")) {
+      if (mobileNavQuery.matches) {
         closeMobileMenu();
       }
     });
   });
 
+  menuOverlay?.addEventListener("click", closeMobileMenu);
+
+  document.addEventListener("click", (event) => {
+    if (!navList?.classList.contains("open")) return;
+    if (header?.contains(event.target)) return;
+    closeMobileMenu();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeMobileMenu();
+    }
+  });
+
   const setLayoutOffsets = () => {
     if (!navbar) return;
     const navHeight = navbar.offsetHeight;
-    document.documentElement.style.setProperty("--navbar-height", `${navHeight}px`);
+    document.documentElement.style.setProperty("--navbar-offset", `${navHeight}px`);
   };
 
   const updateNavbarScrollState = () => {

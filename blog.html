@@ -47,12 +47,13 @@
         </a>
 
         <nav class="nav" aria-label="Primary">
-          <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Toggle navigation"
+            aria-controls="primary-menu" aria-expanded="false">
             <span></span>
             <span></span>
             <span></span>
           </button>
-          <ul class="nav-links">
+          <ul class="nav-links" id="primary-menu">
             <li><a href="index.html#home" data-i18n="nav.home">Home</a></li>
             <li><a href="index.html#our-team" data-i18n="nav.team">Attorneys</a></li>
             <li><a href="index.html#about" data-i18n="nav.about">About</a></li>
@@ -68,12 +69,21 @@
                 <option value="es">Spanish</option>
               </select>
             </li>
+            <li class="mobile-nav-action">
+              <a href="tel:+12029462546" class="mobile-nav-phone">+1 (202) 946-2546</a>
+            </li>
+            <li class="mobile-nav-action">
+              <a href="https://calendly.com/eyad-ayed/consultation?month=2025-09" class="mobile-nav-cta"
+                target="_blank" rel="noreferrer">
+                <span data-i18n="nav.cta">Schedule Consultation</span>
+              </a>
+            </li>
           </ul>
         </nav>
 
         <div class="nav-actions">
-          <a href="tel:+12029462646" class="nav-phone">
-            +1 (202) 946-2646
+          <a href="tel:+12029462546" class="nav-phone">
+           +1 (202) 946-2546
           </a>
           <a href="https://calendly.com/eyad-ayed/consultation?month=2025-09" class="navbar-login-btn"
             target="_blank" rel="noreferrer">
@@ -133,7 +143,7 @@
             <span data-i18n="contact.info.address2">Suite 500, Office 5134</span><br>
             <span data-i18n="contact.info.address3">Washington, DC</span>
           </address>
-          <a href="tel:+12029462646">+1 (202) 946-2646</a>
+          <a href="tel:+12029462546">+1 (202) 946-2546</a>
         </div>
 
         <div class="footer-column footer-legal">
@@ -153,7 +163,7 @@
     </div>
   </footer>
 
-  <a href="https://wa.me/12029462646"
+  <a href="https://wa.me/12029462546"
      class="whatsapp-btn"
      target="_blank"
      rel="noreferrer"
