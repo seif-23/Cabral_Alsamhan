@@ -18,22 +18,6 @@
 }
 
 @media (max-width: 1024px) {
-  :root {
-    --navbar-height: 100px;
-    --logo-height: 75px;
-  }
-
-  section.navbar {
-    height: var(--navbar-height);
-  }
-
-  .logo-image {
-    height: auto;
-    min-height: 0;
-    max-height: calc(var(--navbar-height) - 24px);
-    max-width: 100%;
-  }
-
   .nav-actions {
     margin-left: 0;
     gap: 12px;
@@ -53,6 +37,16 @@
 }
 
 @media (max-width: 1100px) {
+  :root {
+    --mobile-logo-height: clamp(96px, 16vw, 118px);
+    --mobile-logo-width: clamp(220px, 38vw, 320px);
+    --navbar-height: calc(var(--mobile-logo-height) + 22px);
+  }
+
+  section.navbar {
+    height: var(--navbar-height);
+  }
+
   .menu-toggle {
     display: inline-flex;
     position: relative;
@@ -61,16 +55,20 @@
   }
 
   .logo {
+    flex: 0 1 var(--mobile-logo-width);
     min-width: 0;
-    width: clamp(180px, 24vw, 260px);
-    max-width: clamp(180px, 24vw, 260px);
+    width: min(var(--mobile-logo-width), calc(100% - 62px));
+    max-width: min(var(--mobile-logo-width), calc(100% - 62px));
   }
 
   .logo-image {
-    width: 100%;
-    height: auto;
+    width: auto;
+    /* height: var(--mobile-logo-height); */
     min-height: 0;
-    max-height: min(var(--logo-height), calc(var(--navbar-height) - 24px));
+    max-height: none;
+    /* max-width: 100%; */
+    left: 00px;
+    object-fit: contain;
     transform: none;
   }
 
@@ -192,8 +190,9 @@
 
 @media (max-width: 768px) {
   :root {
-    --navbar-height: 80px;
-    --logo-height: 60px;
+    --mobile-logo-height: clamp(100px, 18vw, 122px);
+    --mobile-logo-width: clamp(220px, 68vw, 300px);
+    --navbar-height: calc(var(--mobile-logo-height) + 22px);
     --section-y: clamp(54px, 10vw, 70px);
   }
 
@@ -217,21 +216,8 @@
 
   .navbar-inner {
     height: 100%;
-    padding: 0 16px;
+    padding: 0 14px;
     gap: 12px;
-  }
-
-  .logo-image {
-    width: 100%;
-    height: auto;
-    min-height: 0;
-    max-height: var(--logo-height);
-    transform: none;
-  }
-
-  .logo {
-    width: min(58vw, 220px);
-    max-width: min(58vw, 220px);
   }
 
   .menu-toggle {
@@ -381,13 +367,6 @@
 }
 
 @media (max-width: 560px) {
-
-  :root,
-  html[class*="header-logo-option-"] {
-    --navbar-height: 78px;
-    --logo-height: 54px;
-  }
-
   section.navbar {
     height: var(--navbar-height);
     min-height: 0;
@@ -401,19 +380,6 @@
     row-gap: 0;
   }
 
-  .logo {
-    width: min(62vw, 210px);
-    max-width: min(62vw, 210px);
-  }
-
-  .logo-image {
-    width: 100%;
-    height: auto;
-    min-height: 0;
-    max-height: var(--logo-height);
-    transform: none;
-  }
-
   .nav {
     flex: 0 0 auto;
   }
@@ -425,6 +391,9 @@
 }
 
 @media (max-width: 480px) {
+  .navbar-inner {
+    gap: 10px;
+  }
 
   .container,
   .process-shell,
